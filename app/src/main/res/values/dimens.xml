@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="env_variables_drawing_padding">5dp</dimen>
+    <dimen name="env_variables_width">120dp</dimen>
+
+
+    <dimen name="dialog_max_width">250dp</dimen>
+    <dimen name="floating_action_button_margin">40dp</dimen>
+    <dimen name="recycler_view_bottom_padding">70dp</dimen>
+</resources>
