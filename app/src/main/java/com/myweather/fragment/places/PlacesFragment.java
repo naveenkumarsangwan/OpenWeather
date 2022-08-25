@@ -300,8 +300,11 @@ public class PlacesFragment extends Fragment {
 
 		//  Get API key
 		SharedPreferences apiKeyPref = PreferenceManager.getDefaultSharedPreferences(mContext);
-		//API_KEY = apiKeyPref.getString("api_key", null);
-		API_KEY = "ae1c4977a943a50eaa7da25e6258d8b2";
+		API_KEY = apiKeyPref.getString("api_key", null);
+		/*
+		* you can directly add the below lone and above should b comment after uncomment the below line
+		* */
+		API_KEY = "";
 
 
 		//	API key verification

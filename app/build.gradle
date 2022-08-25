@@ -42,7 +42,8 @@ dependencies {
     implementation 'androidx.core:core:1.8.0'
     implementation 'androidx.security:security-crypto:1.0.0'
 
-    implementation project(path: ':app:SDK')
+    implementation 'com.github.naveenkumarsangwan:OpenWeather:1.0'
+    // implementation project(path: ':app:SDK')
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
 
 
